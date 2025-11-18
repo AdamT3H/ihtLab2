@@ -28,10 +28,21 @@ Before running, make sure you have:
 1. Clone the repository:
    git clone https://github.com/AdamT3H/ihtLab2.git
    cd ihtLab2
+   
 Grant execute permissions:
-
 2. chmod +x run.sh user-data.sh
-Run the main script:
 
+Run the main script:
 3. ./run.sh
+
 The script will automatically call user-data.sh, which will perform system configuration tasks.
+
+Connect via ssh:
+4. ssh -i ~/Desktop/iht-default/iht-key-pair.pem ubuntu@PUBLIC_IP
+
+Check packages:
+5. mc --version # Midnight Commander
+
+vim --version # Vim editor
+
+git --version # Git
