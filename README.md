@@ -1,4 +1,4 @@
-# ihtLab2
+# Ogorodnik Adam 4cs-31
 
 ## 📘 Project Description
 This project was created for the **Internet Technologies** lab work.  
@@ -14,9 +14,6 @@ ihtLab2/
 ├── run.sh # Main startup script
 └── user-data.sh # Configuration script
 
-yaml
-Copy code
-
 ---
 
 ## ⚙️ Requirements
@@ -29,30 +26,12 @@ Before running, make sure you have:
 
 ## 🚀 How to Run
 1. Clone the repository:
-   ```bash
    git clone https://github.com/AdamT3H/ihtLab2.git
    cd ihtLab2
 Grant execute permissions:
 
-bash
-Copy code
-chmod +x run.sh user-data.sh
+2. chmod +x run.sh user-data.sh
 Run the main script:
 
-bash
-Copy code
-./run.sh
+3. ./run.sh
 The script will automatically call user-data.sh, which will perform system configuration tasks.
-
-🧩 Example user-data.sh content
-bash
-Copy code
-#!/bin/bash
-yum update -y
-yum install -y nginx
-systemctl enable nginx
-systemctl start nginx
-echo "✅ Nginx has been successfully installed and started!"
-👨‍💻 Author
-AdamT3H
-Student at IT Step University
