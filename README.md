@@ -38,7 +38,7 @@ Run the main script:
 The script will automatically call user-data.sh, which will perform system configuration tasks.
 
 Connect via ssh:
-4. ssh -i ~/Desktop/iht-default/iht-key-pair.pem ubuntu@PUBLIC_IP
+4. ssh -i iht-key-pair.pem ubuntu@PUBLIC_IP
 
 Check packages:
 5. mc --version # Midnight Commander
