@@ -16,6 +16,7 @@ aws ec2 run-instances \
   --instance-type $INSTANCE_TYPE \
   --key-name $KEY_NAME \
   --security-group-ids $SECURITY_GROUP_ID \
+  --iam-instance-profile Name=Mac-ssm-access \
   --user-data $USER_DATA_PATH \
   --region $REGION \
   --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=iht-instance}]'
